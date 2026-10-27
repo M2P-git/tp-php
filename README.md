@@ -102,6 +102,6 @@ Compressez *votre dossier* (jamais le dossier parent) en `nom-prenom-galerie-v1.
 
 - [S1](tp/s01/README.md) : premier script PHP, la date du jour
 - [S1bis](tp/s01bis/README.md) : la carte HTML, sa grille CSS et un bouton de filtre JavaScript
-- [S2](tp/s02/README.md) : la fiche d'un modèle 3D
+- [S2](tp/s02/README.md) : la fiche d'un modèle 3D (point de départ dans `tp/s02/depart`, solution de chaque checkpoint dans `tp/s02/solutions`)
 - [S3](tp/s03/README.md) : la galerie, une carte par modèle
 - [S4](tp/s04/README.md) : la Galerie v1 (jalon 1)

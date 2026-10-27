@@ -1,0 +1,16 @@
+/* La feuille de style de la S1bis (carte et grille) */
+:root { --accent: #1c4e80; }
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+h1 { color: var(--accent); }
+.galerie { display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.carte { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; }
+.carte h2 { color: var(--accent); font-size: 1.1rem; }
+.carte img { width: 100%; object-fit: cover; }
+.carte:hover { box-shadow: 0 2px 8px rgba(0, 0, 0, .25); }
+
+/* Nouveau en S2 : le badge de catégorie (checkpoint 3) et l'alerte de format (checkpoint 4) */
+.badge { display: inline-block; padding: .1rem .5rem; border-radius: 4px;
+  background: var(--accent); color: white; font-size: .8rem; font-weight: bold; }
+.alerte { color: #a31515; font-size: .9rem; }
